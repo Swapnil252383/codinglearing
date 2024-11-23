@@ -11,7 +11,7 @@ const Login = ({ onLogin }) => {
     e.preventDefault();
     if (
       (username === "Swapnil" && password === "123") ||
-      (username === "swap" && password === "456")
+      (username === "ArshiyaSayy" && password === "Arshu%123")
     ) {
       setSuccess(`Login successful! Welcome, ${username}.`);
       setError("");
