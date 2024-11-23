@@ -1,0 +1,162 @@
+.notes-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .notes-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .notes-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .note-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .note-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .note-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+  }
+  
+  .note-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .note-description {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .note-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pdf-btn {
+    background-color: #6a1b9a;
+  }
+  
+  .pdf-btn:hover {
+    background-color: #8e24aa;
+  }
+  
+  .chapter-btn {
+    background-color: #3949ab;
+  }
+  
+  .chapter-btn:hover {
+    background-color: #5c6bc0;
+  }
+  
+  .coming-soon-btn {
+    background-color: #757575;
+    cursor: not-allowed;
+  }
+  
+  .coming-soon-btn:hover {
+    background-color: #616161;
+  }
+  
+  /* Like button section */
+  .like-section {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .like-btn {
+    background-color: #ff5252;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like-btn:hover {
+    background-color: #ff1744;
+  }
+  
+  .like-count {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pdf-btn {
+    background-color: #4caf50;
+  }
+  
+  .pdf-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .coming-soon-btn {
+    background-color: #757575;
+    cursor: not-allowed;
+  }
+  
+  .coming-soon-btn:hover {
+    background-color: #616161;
+  }
+  
+  a {
+    text-decoration: none; /* Removes underline for links */
+  }
+  
